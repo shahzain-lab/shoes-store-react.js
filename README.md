@@ -1,1 +1,1 @@
-<img src="./Capture.JPG" alt="Shoes Store">
+shoes store
