@@ -30,7 +30,7 @@ export default function Product() {
             return(
               <Link  key={keyType}  to={`/product/${keyType}`} className="shoes">
                 <h3>{shoe.name}</h3>
-                <img src={shoe.img} height={200}/>
+                <img src={shoe.img} alt="shoes" height={200}/>
               </Link>
             )
           })}

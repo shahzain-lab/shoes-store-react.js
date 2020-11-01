@@ -13,7 +13,7 @@ export const shoes = {
     "Racer-blue": {
       name: "RACER BLUE",
       img:
-        "https://secure-images.nike.com/is/image/DotCom/CK6637_104_A_PREM?$SNKRS_COVER_WD$&align=0,1"
+        "https://secure-images.nike.com/is/image/DotCom/CK6637_104_A_PREM?$SNKRS_COVER_WD$&align=0,1",alt:"shoes"
     },
     "Jordan-london": {
         name: "JORDAN MARS",

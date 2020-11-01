@@ -18,7 +18,7 @@ if(!shoe){
             
             <div className="shoes">
                 <h2>{shoe.name}</h2>
-                <img src={shoe.img} height={450}/>
+                <img src={shoe.img}alt="shoes" height={450}/>
               </div>
         </div>
     )
