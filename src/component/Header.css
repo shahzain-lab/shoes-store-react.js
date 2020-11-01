@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Menu{
+    width: 100vw;
+    height: auto;
+    background-color:#3E484E;
+    color:#B3B6B7!important ;
+    display: flex;
+    justify-content:space-between;
+    box-shadow: 0 4px 4px rgba(7, 8, 9 );
+    margin-bottom: 6px;
+    border-radius: 0 4px 0 ;
+}
+.Menu h3{
+    padding: 10px 30px;
+}
+.appBar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+}
+.appBar li{
+    padding: 0 30px;
+    color: #b3b6b7!important;
+    text-decoration: none;
+}
+.appBar li:hover{
+    color: #f6f6f6!important;
+    text-decoration: none;
+    cursor: pointer
+}

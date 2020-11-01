@@ -1,0 +1,40 @@
+.rightSide{
+    text-align: center;
+    padding: 90px 0;
+}
+.rightSide h3{
+    color:#3E4144;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.rightSide h5{
+    color: #797D7F;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.mainButton{
+    text-decoration: none!important;list-style: none;color: blanchedalmond;
+}
+.mainButton:hover{
+    text-decoration: none;
+}
+
+/* ////product */
+.list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.list .shoes{
+    border: 2px solid grey;
+    margin: 30px;
+    padding: 0 60px;
+    color: rgb(94, 93, 93);
+    text-decoration: none;
+    box-shadow: 0.6rem 0.6rem 0.3rem rgba(0,0,0,0.2);
+    cursor: pointer;
+    align-items: center;
+}
+.shoes:hover{
+    color: darkgrey;
+}

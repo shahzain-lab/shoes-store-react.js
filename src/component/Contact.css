@@ -1,0 +1,40 @@
+div .fa-envelope-open {
+    font-size: 7rem;
+    margin-right: 190px!important;color: #212F3D;
+}
+.heading{
+    color:#808B96 ;
+}
+.form{
+    width: 450px;
+    height: 450px;
+    background-color: #34495E;
+    border-radius: 12px;
+    box-shadow: 2rem 1rem 1rem rgba(0,0,0,0.4);
+    padding: 20px 25px;
+}
+.form label{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.form .input{
+    margin: 20px;
+    outline: none;
+    padding: 5px 2px;
+}
+.form textarea{
+    
+    margin: 20px;
+    outline: none;
+}
+.form .submit{
+    padding: 7px 15px;
+    transition: .3s;
+    outline: none;
+}
+.submit:hover{
+    color: white;
+    background:#616A6B ;
+}
