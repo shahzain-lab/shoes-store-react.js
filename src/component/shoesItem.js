@@ -1,6 +1,6 @@
 import React from 'react'
 import { shoes } from './shoe';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 
 export const ShoesItem = () => {
     const {id} = useParams();
@@ -20,6 +20,7 @@ if(!shoe){
                 <h2>{shoe.name}</h2>
                 <img src={shoe.img}alt="shoes" height={450}/>
               </div>
+              <Link to="/product">Back to products</Link>
         </div>
     )
 }
