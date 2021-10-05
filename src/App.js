@@ -1,5 +1,5 @@
 import React from 'react';
-import Routered from './component/Router';
+import Routered from './components/Router';
 import './App.css';
 
 function App(){

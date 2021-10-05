@@ -18,7 +18,6 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Product() {
   const classes = useStyles();
-  console.log(shoes)
 
   return (
     <div className={classes.root} /*style={{backgroundImage: "url('https://images-na.ssl-images-amazon.com/images/I/61TjTfcelPL._AC_UL1486_.jpg')"}}*/>
@@ -28,7 +27,7 @@ export default function Product() {
           {Object.keys(shoes).map(keyType => {
             const shoe = shoes[keyType];
             return(
-              <Link  key={keyType}  to={`/product/${keyType}`} className="shoes">
+              <Link  key={keyType}  to={`${keyType}`} className="shoes">
                 <h3>{shoe.name}</h3>
                 <img src={shoe.img} alt="shoes" height={200}/>
               </Link>
@@ -36,7 +35,6 @@ export default function Product() {
           })}
         </div>
         </Grid>
-        
     </div>
 
   );

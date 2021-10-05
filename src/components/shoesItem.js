@@ -4,7 +4,7 @@ import { useParams, Link } from 'react-router-dom';
 
 export const ShoesItem = () => {
     const {id} = useParams();
-    const shoe = shoes[id]
+    const shoe = shoes[id];
     console.log(shoe)
 if(!shoe){
     return(
@@ -20,7 +20,7 @@ if(!shoe){
                 <h2>{shoe.name}</h2>
                 <img src={shoe.img}alt="shoes" height={450}/>
               </div>
-              <Link to="/product">Back to products</Link>
+              <Link to="/products">Back to products</Link>
         </div>
     )
 }

@@ -39,7 +39,7 @@ export default function Home() {
             <h5>We have best product for you with multiple styles<br /> Choose your own style</h5>
             <Button variant="contained" color="primary"style={{margin:'20px'}} disableElevation >
             
-            <Link className='mainButton' to="/product">Visit Product</Link>
+            <Link className='mainButton' to="products">Visit Product</Link>
     </Button>
             </div>         
         </Grid>
